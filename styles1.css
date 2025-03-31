@@ -1,3 +1,6 @@
+*{
+   box-sizing: border-box; 
+}
 html, body, p {
     margin: 0;
     padding: 0;
@@ -15,5 +18,44 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px; 
 }
+header{
+    padding: 30px; 
+    align-items:center;
+    display: flex;
+}
+/* rzeczy do nagłówka */
+header h1 {
+
+    margin-left: 15px; 
+    font-size: 32px; 
+    font-weight: bold; 
+}
+
+header nav{
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end; /*odnosniki poszly w prawo*/
+    align-items: space-between;
+
+
+    /* jak jest a to dla kazdego elementu w nav osobno */
+    a {
+        justify-content: space-between;
+        align-self: flex-end; /* linki do gornej krawedzi */
+        width: 75px;
+        
+    }
+    a:nth-of-type(1)
+    {
+        padding-left:20px;
+    }
+    
+}
+article {
+    border: 2px solid black;
+}
+
 
