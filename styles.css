@@ -55,4 +55,13 @@ nav a {
     padding: 5px;
 } 
 
+@media all and (max-wisth: 900px) {
+    main {
+        flex-wrap: wrap;
+        display: none;
+    }
+
+
+
+}
 
