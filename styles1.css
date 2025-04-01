@@ -58,7 +58,7 @@ header nav{
 }
 article {
     border: 2px solid black;
-    /*width: 100%; jak to dodaję to nie są obok siebie tylko pod sobą*/
+    width: 100%;/*nie do calego article tylko do tekstu w article*/
     
     /**do tych 3 nagłówkow*/
     h2 {
